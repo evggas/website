@@ -1,0 +1,45 @@
+ <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to bottom right, #a1c4fd, #c2e9fb); /* Градиентный фон */
+      color: #333;
+      padding: 0;
+    }
+    .navbar {
+      background-color: #004085; /* Тёмно-синий фон шапки */
+    }
+    .navbar-brand, .nav-link {
+      color: #ffffff !important;
+    }
+   .header-section {
+      text-align: center;
+      margin: 40px 0;
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    .header-section h1 {
+      color: #ffffff; /* Белый цвет */
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Мягкая и менее насыщенная тень */
+      font-family: 'Playfair Display', serif;
+      font-size: 4rem;
+      margin-bottom: 15px;
+    }
+
+    .header-section p {
+      color: #ffffff; /* Белый цвет */
+      font-size: 1.7rem; /* Размер шрифта */
+      font-weight: 300;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Мягкая тень */
+    }
+
+     .content-section, .accordion, .card {
+       background: rgba(255, 255, 255, 0.9); /* Полупрозрачный белый фон */
+       padding: 20px;
+       border-radius: 15px;
+       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .content-section {
+      max-width: 900px;
+      margin: 0 auto 40px;
+    }
+  </style>

@@ -1,0 +1,39 @@
+ <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to bottom right, #a1c4fd, #c2e9fb); /* Градиентный фон */
+      color: #333;
+      padding: 0;
+    }
+    .navbar {
+      background-color: #004085; /* Тёмно-синий фон шапки */
+    }
+    .navbar-brand, .nav-link {
+      color: #ffffff !important;
+    }
+    .header-section {
+  position: relative;
+  display: inline-block; /* Делаем блоком, чтобы ограничить подложку */
+  padding: 10px; /* Добавим немного отступов */
+  background: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для выделения */
+  border-radius: 10px; /* Сглаженные углы */
+}
+
+.header-section h1, .header-section p {
+  color: #ffffff; /* Белый цвет текста */
+  text-shadow: none; /* Убираем или минимизируем тень */
+}
+
+    }
+
+     .content-section, .accordion, .card {
+       background: rgba(255, 255, 255, 0.9); /* Полупрозрачный белый фон */
+       padding: 20px;
+       border-radius: 15px;
+       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .content-section {
+      max-width: 900px;
+      margin: 0 auto 40px;
+    }
+  </style>
