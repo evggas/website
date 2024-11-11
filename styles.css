@@ -1,6 +1,5 @@
- <style>
     body {
-      font-family: 'Roboto', sans-serif;
+     font-family: 'Roboto', sans-serif;
       background: linear-gradient(to bottom right, #a1c4fd, #c2e9fb); /* Градиентный фон */
       color: #333;
       padding: 0;
@@ -42,4 +41,7 @@
       max-width: 900px;
       margin: 0 auto 40px;
     }
-  </style>
+    .card:hover {
+      transform: scale(1.05); /* Увеличивает карточку на 5% при наведении */
+      transition: transform 0.5s; /* Плавный переход */
+    }
